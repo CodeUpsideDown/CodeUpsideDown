@@ -1,0 +1,72 @@
+.answer {
+    width: 200px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 12, 4);
+    height: 2px;
+    text-align: right;
+    font-size: 2.5rem;
+    margin-bottom: 3px;
+    border: 1px
+    
+}
+
+.number {
+width: 55px;
+height: 55px;
+border: 5px;
+border-color: rgb(195, 180, 180);
+cursor: pointer;
+text-align: center;
+font-size: 15px;
+border: 0;
+background-color: rgb(178, 192, 206);
+border-radius: 0;
+margin: -2px;
+padding: -10px;
+
+}
+.number0 {
+    width: 110px;
+    height: 55px;
+   border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    background-color: rgb(222, 227, 232);
+    margin: -2px;
+    }
+
+.spec{
+
+border: 0;
+background-color: rgb(213, 188, 124);
+width: 55px;
+height: 53.5px;
+cursor: pointer;
+border-radius: 0;
+margin: -2px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.top{
+    
+    border: 0;
+    background-color:rgb(238, 238, 207);
+    width: 55px;
+    height: 55px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: -2px;
+}
+.number:active,
+.number0:active,
+.spec:active,
+.top:active {
+    background-color: #cfc499;}
